@@ -1,13 +1,32 @@
 # LUSK Technologies
 
-Building modern cloud solutions and web applications.
+**Providing affordable IT and web services to individuals and small companies.**
 
-## Our Projects
+We build modern cloud solutions, web applications, and provide technology consulting services.
 
-- [lusk.cloud](https://github.com/LUSKTECH/lusk.cloud) - Cloud consulting landing page
-- [lusk.tech](https://github.com/LUSKTECH/lusk.tech) - Technology solutions
-- [lusk.app](https://github.com/LUSKTECH/lusk.app) - Application platform
+## 🌐 Our Projects
 
-## Connect
+| Project | Description |
+|---------|-------------|
+| [lusk.tech](https://lusk.tech) | Official website for Lusk Technologies, Inc. |
+| [lusk.cloud](https://lusk.cloud) | Cloud consulting and web management services |
+| [lusk.app](https://lusk.app) | Open source projects showcase |
+| [lusk.co](https://lusk.co) | Generic landing page template |
+| [locotek.ca](https://locotek.ca) | Client project - Locotek |
+| [arl.hockey](https://arl.hockey) | Client project - ARL Hockey |
 
-Visit us at [lusk.cloud](https://lusk.cloud)
+## 🛠️ What We Do
+
+- **Web Development** - Modern, responsive websites and web applications
+- **Cloud Consulting** - AWS, Azure, and cloud infrastructure solutions
+- **IT Services** - Technical support and managed services for small businesses
+- **Open Source** - Contributing to and maintaining open source projects
+
+## 📫 Connect With Us
+
+- 🌐 Website: [lusk.tech](https://lusk.tech)
+- 💼 GitHub: [@LUSKTECH](https://github.com/LUSKTECH)
+
+---
+
+*Building technology solutions that work for you.*
