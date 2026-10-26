@@ -9,7 +9,7 @@ on:
 jobs:
   notify-failure:
     if: failure()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - name: Send Failure Notification
         uses: sarisia/actions-status-discord@v1.16.0

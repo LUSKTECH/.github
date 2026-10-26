@@ -22,7 +22,7 @@ on:
 jobs:
   stale:
     name: Label and Close Stale Issues/PRs
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     permissions:
       issues: write
       pull-requests: write
