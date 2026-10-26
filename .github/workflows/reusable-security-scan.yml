@@ -19,7 +19,7 @@ jobs:
   trivy:
     name: Trivy Filesystem Scan
     if: ${{ inputs.scan_type == 'trivy' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v4
 
@@ -35,7 +35,7 @@ jobs:
   snyk:
     name: Snyk Dependency Scan
     if: ${{ inputs.scan_type == 'snyk' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     env:
       SNYK_TOKEN: ${{ secrets.snyk_token }}
     steps:
@@ -43,7 +43,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
           cache: npm
 
       - run: npm ci
@@ -56,13 +56,13 @@ jobs:
   safety:
     name: Safety CLI Scan
     if: ${{ inputs.scan_type == 'safety' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.14.9'
 
       - name: Install dependencies
         run: |
